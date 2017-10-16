@@ -65,7 +65,11 @@ android {
     }
 }
 
-
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
 
 /*android {
     compileSdkVersion 25
